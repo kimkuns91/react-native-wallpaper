@@ -7,7 +7,6 @@ import { PhotoListItem } from '../components/PhotoListItem';
 
 export const FavoriteImageListScreen = (props)=>{
     const imageList = useSelector((state)=> state.favorite.favoriteList);
-
     return (
         <View style={{flex:1}}>
             <Header>
